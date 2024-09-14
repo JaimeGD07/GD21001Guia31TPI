@@ -60,7 +60,49 @@ pais {
     margin-bottom: 10px;
     color: #333;
   }
-  
+
+idioma {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffccbc; /* Un color pastel suave */
+    border: 1px solid #ffab91; 
+    border-radius: 5px;
+}
+
+idioma::before {
+    content: "Idiomas:";
+    display: block;
+    font-weight: bold;
+    color: #d84315; /* Un color contrastante */
+    margin-bottom: 5px;
+}
+
+oficial, autoctono, segundaLengua {
+    display: block;
+    margin: 5px 0;
+    font-weight: normal; 
+    color: #333;
+}
+
+oficial::before, autoctono::before, segundaLengua::before {
+    font-weight: bold;
+    color: #c62828;
+}
+
+oficial::before {
+    content: "Idioma Oficial: ";
+}
+
+autoctono::before {
+    content: "Idiomas Autóctonos: ";
+}
+
+segundaLengua::before {
+    content: "Segunda Lengua: ";
+}
+
+
   /* Estilo para los campos individuales (sin negrita para el contenido) */
   nombre, codigoTelefonico, areaTerritorial, poblacion, capital, dominioInternet, cabecera, habitantes, altura, superficie {
     display: block;
