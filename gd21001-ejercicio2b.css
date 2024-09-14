@@ -102,7 +102,6 @@ segundaLengua::before {
     content: "Segunda Lengua: ";
 }
 
-  
   /* Estilo para los campos individuales (sin negrita para el contenido) */
   nombre, codigoTelefonico, areaTerritorial, poblacion, capital, dominioInternet, cabecera, habitantes, altura, superficie {
     display: block;
