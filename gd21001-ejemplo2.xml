@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="gd21001-ejemplo2.css" ?>
+<!-- ejemplo2.xml GD21001 -->
+<pais nombre="El Salvador">
+<departamento id="1" nombre="San Salvador">
+<cabecera>San Salvador</cabecera>
+<habitantes>1,700,000</habitantes>
+<altura>545 MSNM</altura>
+</departamento>
+<seccion>
+<párrafo><a href="index.html" xmlns="http://www.w3.org/1999/xhtml">Regresar</a></párrafo>
+</seccion>
+</pais>

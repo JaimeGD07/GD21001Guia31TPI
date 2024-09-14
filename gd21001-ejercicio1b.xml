@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="gd21001-ejercicio1b.css" ?>
+<!-- ejercicio1b.xml       GD21001-->
+<fichero>
+<ficha id="1" fechaingreso="1/11/2012">
+<nombre>Antonio</nombre>
+<apellido>Barbero</apellido>
+<direccion>Calle de Los Andes, 45</direccion>
+</ficha>
+<!-- Mis datos personales GD21001 ejercicio 1a -->
+<ficha id="2" fechaingreso="12/09/2024">
+<nombre>Jaime Ernesto</nombre>
+<apellido>Gil Diaz</apellido>
+<direccion>Calle El gringo, 257</direccion>
+<telefono>72628024</telefono>
+<email>jaimegildiaz38@gmail.com</email>
+<url/>
+<ocupacion>estudiante</ocupacion>
+<carrera>Ingenieria</carrera>
+<edad>22</edad>
+</ficha>
+<!-- Mis Datos ejercicio 1b -->
+<ficha id="3" fechaingreso="12/09/2024">
+<nombre>Jaime Ernesto</nombre>
+<apellido>Gil Diaz</apellido>
+<direccion>Calle El gringo, 257</direccion>
+<telefono>72628024</telefono>
+<email>jaimegildiaz38@gmail.com</email>
+<url/>
+<ocupacion>estudiante</ocupacion>
+<carrera>Ingenieria</carrera>
+<edad>22</edad>
+<dui>06305611-7</dui>
+<isss>No Asignado</isss>
+<afp>No Asignado</afp>
+<nit>0614-071201-122-8</nit>
+</ficha>
+<seccion>
+<párrafo><a href="index.html" xmlns="http://www.w3.org/1999/xhtml">Regresar</a></párrafo>
+</seccion>
+</fichero>

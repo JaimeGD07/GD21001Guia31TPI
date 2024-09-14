@@ -1,0 +1,81 @@
+fichero {
+    display: block;
+    font-family: Arial, sans-serif;
+    background-color: #ffffcc; 
+    padding: 20px;
+    font-weight: bold; 
+  }
+  
+  ficha {
+    display: block;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffe0; 
+  }
+  
+  
+  nombre, apellido, direccion, telefono, email, ocupacion, carrera, edad {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  
+  nombre::before {
+    content: "Nombre: ";
+  }
+  
+  apellido::before {
+    content: "Apellido: ";
+  }
+  
+  direccion::before {
+    content: "Dirección: ";
+  }
+  
+  telefono::before {
+    content: "Teléfono: ";
+  }
+  
+  email::before {
+    content: "Email: ";
+  }
+  
+  ocupacion::before {
+    content: "Ocupación: ";
+  }
+  
+  carrera::before {
+    content: "Carrera: ";
+  }
+  
+  edad::before {
+    content: "Edad: ";
+  }
+  
+seccion {
+  margin: 20px;
+}
+
+párrafo {
+  margin: 10px 0;
+}
+
+
+párrafo a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d3d3d3; 
+  color: #000000; 
+  text-decoration: none;
+  border: 1px solid #a9a9a9; 
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+párrafo a:hover {
+  background-color: #a9a9a9; 
+  color: #ffffff; 
+}

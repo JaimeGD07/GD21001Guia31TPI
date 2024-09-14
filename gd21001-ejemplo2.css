@@ -1,0 +1,67 @@
+pais {
+    display: block;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    background-color: #ccffcc; 
+    font-weight: bold; 
+  }
+  
+  departamento {
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #bbb;
+    padding: 15px;
+    background-color: #e6ffe6; 
+  }
+  
+  cabecera, habitantes, altura {
+    display: block;
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  departamento::before {
+    content: "Departamento: ";
+    color: #2c3e50;
+  }
+  
+  cabecera::before {
+    content: "Cabecera: ";
+  }
+  
+  habitantes::before {
+    content: "Habitantes: ";
+  }
+  
+  altura::before {
+    content: "Altura: ";
+  }  
+
+seccion {
+  margin: 20px;
+}
+
+
+párrafo {
+  margin: 10px 0;
+}
+
+
+párrafo a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d3d3d3;
+  color: #000000; 
+  text-decoration: none;
+  border: 1px solid #a9a9a9; 
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+párrafo a:hover {
+  background-color: #a9a9a9; 
+  color: #ffffff; 
+}

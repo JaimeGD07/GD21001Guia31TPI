@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; 
+    margin: 20px;
+}
+
+pregunta {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #d3d3d3; 
+    border-radius: 8px;
+    background-color: #e0f7fa;
+}
+
+enunciado {
+    font-size: 16px;
+    font-weight: bold;
+    color: #388e3c; 
+    margin-bottom: 10px;
+    display: block;
+}
+
+respuesta {
+    font-size: 14px;
+    color: #d32f2f; 
+    margin: 10px 0;
+    display: block;
+}
+
+seccion {
+    margin: 20px;
+}
+
+párrafo {
+    margin: 10px 0;
+}
+
+párrafo a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d3d3d3; 
+    color: #000000; 
+    text-decoration: none;
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+párrafo a:hover {
+    background-color: #a9a9a9; 
+    color: #ffffff; 
+}

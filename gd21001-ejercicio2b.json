@@ -1,0 +1,48 @@
+{
+	"pais": {
+		"informacion": {
+			"nombre": "El Salvador",
+			"monedas": {
+				"primera": "Colón (₡)",
+				"segunda": "Dolar EstadoUnidense ($)",
+				"tercera": "Bitcoin (B)"
+			},
+			"codigoTelefonico": "+503",
+			"idioma": {
+				"oficial": "Español",
+				"autoctono": "Nahuatl y Lenca",
+				"segundaLengua": "Ingles"
+			},
+			"areaTerritorial": "21,041 km²",
+			"poblacion": "6,520,352 Habitantes",
+			"capital": "San Salvador",
+			"dominioInternet": ".sv"
+		},
+		"departamento": [
+			{
+				"cabecera": "San Salvador",
+				"habitantes": "1,700,000",
+				"altura": "545 MSNM",
+				"superficie": "886.15 km²",
+				"_id": "1",
+				"_nombre": "San Salvador"
+			},
+			{
+				"cabecera": "Sonsonate",
+				"habitantes": "469,720",
+				"altura": "220 MSNM",
+				"superficie": "1,226 km²",
+				"_id": "2",
+				"_nombre": "Sonsonate"
+			},
+			{
+				"cabecera": "Ahuachapan",
+				"habitantes": "319,503",
+				"altura": "800 MSNM",
+				"superficie": "244.84 km²",
+				"_id": "3",
+				"_nombre": "Ahuachapan"
+			}
+		]
+	}
+}

@@ -1,0 +1,115 @@
+
+pais {
+    display: block;
+    font-family: Arial, sans-serif;
+    background-color: #fff9c4; 
+    padding: 20px;
+    font-weight: normal; 
+  }
+  
+  
+  informacion {
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #c5e1a5; 
+    border: 1px solid #ddd;
+  }
+  
+  
+  departamento {
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #c5e1a5;
+    border: 1px solid #ddd;
+    position: relative;
+  }
+  
+  
+  departamento::before {
+    content: "Departamento (ID: " attr(id) ") - Nombre: " attr(nombre);
+    display: block;
+    font-weight: bold; 
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+ 
+  nombre, moneda, codigoTelefonico, areaTerritorial, oficial, autoctono, segundaLengua, cabecera, habitantes, altura {
+    display: block;
+    margin: 5px 0;
+    font-weight: normal; 
+  }
+  
+  
+  nombre::before, moneda::before, codigoTelefonico::before, areaTerritorial::before, oficial::before, autoctono::before, segundaLengua::before, cabecera::before, habitantes::before, altura::before {
+    font-weight: bold; 
+  }
+  
+  nombre::before {
+    content: "Nombre: ";
+  }
+  
+  moneda::before {
+    content: "Moneda: ";
+  }
+  
+  codigoTelefonico::before {
+    content: "Código Telefónico: ";
+  }
+  
+  areaTerritorial::before {
+    content: "Área Territorial: ";
+  }
+  
+  oficial::before {
+    content: "Idioma Oficial: ";
+  }
+  
+  autoctono::before {
+    content: "Idiomas Autóctonos: ";
+  }
+  
+  segundaLengua::before {
+    content: "Segunda Lengua: ";
+  }
+  
+  cabecera::before {
+    content: "Cabecera: ";
+  }
+  
+  habitantes::before {
+    content: "Habitantes: ";
+  }
+  
+  altura::before {
+    content: "Altura: ";
+  }
+   
+seccion {
+  margin: 20px;
+}
+
+párrafo {
+  margin: 10px 0;
+}
+
+
+párrafo a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d3d3d3; 
+  color: #000000; 
+  text-decoration: none;
+  border: 1px solid #a9a9a9;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+párrafo a:hover {
+  background-color: #a9a9a9; 
+  color: #ffffff; 
+}

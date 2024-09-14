@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="gd21001-ejercicio2a.css" ?>
+<!-- ejercicio2a.xml GD21001 -->
+<pais>
+<informacion>
+<nombre>El Salvador</nombre>
+<moneda>Dolar EstadoUnidense ($)</moneda>
+<codigoTelefonico>+503</codigoTelefonico>
+<idioma>
+<oficial>Español</oficial>
+<autoctono>Nahuatl y Lenca</autoctono>
+<segundaLengua>Ingles</segundaLengua>
+</idioma>
+<areaTerritorial>21,041 km²</areaTerritorial>
+</informacion>
+<!--Primer departamento insertado-->
+<departamento id="1" nombre="San Salvador">
+<cabecera>San Salvador</cabecera>
+<habitantes>1,700,000</habitantes>
+<altura>545 MSNM</altura>
+</departamento>
+<!--Segundo departamento insertado-->
+<departamento id="2" nombre="Sonsonate">
+<cabecera>Sonsonate</cabecera>
+<habitantes>469,720</habitantes>
+<altura>220 MSNM</altura>
+</departamento>
+<seccion>
+<párrafo><a href="index.html" xmlns="http://www.w3.org/1999/xhtml">Regresar</a></párrafo>
+</seccion>
+</pais>

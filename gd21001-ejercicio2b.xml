@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="gd21001-ejercicio2b.css" ?>
+<!-- ejercicio2b.xml GD21001 -->
+<pais>
+<informacion>
+<nombre>El Salvador</nombre>
+<monedas>
+<primera>Colón (₡)</primera>
+<segunda>Dolar EstadoUnidense ($)</segunda>
+<tercera>Bitcoin (B)</tercera>
+</monedas>
+<codigoTelefonico>+503</codigoTelefonico>
+<idioma>
+<oficial>Español</oficial>
+<autoctono>Nahuatl y Lenca</autoctono>
+<segundaLengua>Ingles</segundaLengua>
+</idioma>
+<areaTerritorial>21,041 km²</areaTerritorial>
+<poblacion>6,520,352 Habitantes</poblacion>
+<capital>San Salvador</capital>
+<dominioInternet>.sv</dominioInternet>
+</informacion>
+<!--Primer departamento insertado-->
+<departamento id="1" nombre="San Salvador">
+<cabecera>San Salvador</cabecera>
+<habitantes>1,700,000</habitantes>
+<altura>545 MSNM</altura>
+<superficie>886.15 km²</superficie>
+</departamento>
+<!--Segundo departamento insertado-->
+<departamento id="2" nombre="Sonsonate">
+<cabecera>Sonsonate</cabecera>
+<habitantes>469,720</habitantes>
+<altura>220 MSNM</altura>
+<superficie>1,226 km²</superficie>
+</departamento>
+<!--Tercer departamento insertado-->
+<departamento id="3" nombre="Ahuachapan">
+<cabecera>Ahuachapan</cabecera>
+<habitantes>319,503</habitantes>
+<altura>800 MSNM</altura>
+<superficie>244.84 km²</superficie>
+</departamento>
+<seccion>
+<párrafo><a href="index.html" xmlns="http://www.w3.org/1999/xhtml">Regresar</a></párrafo>
+</seccion>
+</pais>

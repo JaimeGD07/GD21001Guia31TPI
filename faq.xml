@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="estilofaq.css" ?>
+<!-- FAQ.xml       GD21001-->
+<faq>
+<pregunta id="1">
+<enunciado>¿A partir del ejemplo 1 y ejercicios desarrollados hasta el momento que puede concluir?</enunciado>
+<respuesta>R/ Que en xml se manejan estructuras definidas por el usuario y que la forma en que la informacion se
+se muestra enseña que se maneja por orden los bloques definidos</respuesta>
+</pregunta>
+<pregunta id="2">
+<enunciado>¿A partir del ejemplo 2 y ejercicios desarrollados hasta el momento que puede concluir?</enunciado>
+<respuesta>R/ Que podemos agrupar o mejor dicho definir mas exactamente atributos de algo, asi como tambien desglosarlo y
+definir que corresponde a que, y no hay restricciones para las etiquetas como puede pasar con html</respuesta>
+</pregunta>
+<pregunta id="3">
+<enunciado>¿A partir de los ejercicios desarrollados en esta sección II.3 que puede concluir?</enunciado>
+<respuesta>R/ Que con la consola de javascript podemos hacer uso del metodo parse para asignar un json a una variable
+javascript y luego esta regresarla a JSON mediante herramientas en linea podemos realizar la conversion para
+pasar nuestros xml a codigo json.</respuesta>
+</pregunta>
+<pregunta id="4">
+<enunciado>¿A partir de ejemplo/ejercicios CSS desarrollados, que puede concluir?</enunciado>
+<respuesta>R/Que la edicion para presentar archivos xml usando css hace mas atractivo a la vista el resultado obtenido, 
+y resulta util a mi parecer que una parte este encargada de la estructura del sitio y la otra de la presentacion
+facilita mucho saber que necesita mejorarse de un aspecto o de otro y con la facilidad de definir elementos en xml
+resulta muy util aplicar css para desarollar o presentar estos archivos.</respuesta>
+</pregunta>
+<doc xml:lang="es">
+<seccion>
+<párrafo><a href="index.html" xmlns="http://www.w3.org/1999/xhtml">Regresar</a></párrafo>
+</seccion>
+</doc>
+</faq>
